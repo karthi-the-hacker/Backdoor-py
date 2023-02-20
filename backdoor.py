@@ -11,7 +11,7 @@ from time import sleep
 colorama.init()
 
 RHOST = sys.argv[1] # add your ip
-RPORT = sys.argv[2] #add your port
+RPORT = 9090 #add your port
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
