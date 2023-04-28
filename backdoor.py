@@ -1,9 +1,7 @@
 import socket
 import subprocess
-import os
+import os,sys,getpass
 import platform
-import getpass
-import sys
 import colorama
 from colorama import Fore, Style
 from time import sleep
